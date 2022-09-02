@@ -11,7 +11,7 @@ const About = () => {
         try{
             
             const token = localStorage.getItem("jwtToken");
-            const response = await fetch('http://localhost:8000/about', {
+            const response = await fetch('https://mern-application310.herokuapp.com/about', {
                 method: "GET",
                 headers: {
                     "Authorization": `Bearer ${token}`,

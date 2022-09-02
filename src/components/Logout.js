@@ -11,7 +11,7 @@ const Logout = () => {
     const callLogoutPage = async () => {
         try {
 
-            const response = await fetch('http://localhost:8000/logout', {
+            const response = await fetch('https://mern-application310.herokuapp.com/logout', {
                 method: "GET",
                 headers: {
                     Accept: "appllication/json",
